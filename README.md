@@ -1,16 +1,24 @@
-# flutter_sample_app
-
-A new Flutter project.
+## Flutter Demo App for My Package
+This repository contains a demo Flutter app that showcases the functionalities of "xtravision_flutter_sdk", a Flutter library for provide integration with Xtravision SAAS Platform.
 
 ## Getting Started
+To run the demo app, you will need to have 
+- Flutter SDK, 
+- VS Code 
+- Android Studio 
 
-This project is a starting point for a Flutter application.
+Once you have installed the requirements, you can clone this repository and run the following commands:
 
-A few resources to get you started if this is your first Flutter project:
+```sh
+$ cd flutter-demo
+$ flutter pub get
+$ flutter run
+```
+This will start the demo app on your device.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Contributing
+If you find any issues or have suggestions for improving "xtravision_flutter_sdk" or the demo app, please feel free to create an issue or pull request. We welcome contributions from the community.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## License
+This repository is licensed under the [insert the license of your choice, such as MIT, Apache 2.0, etc.]. See the LICENSE file for details.
+
