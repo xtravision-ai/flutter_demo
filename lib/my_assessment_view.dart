@@ -31,7 +31,7 @@ class _MyAssessmentViewState extends State<MyAssessmentView> {
 
   XtraVisionConnectionData _getConnectionData() {
     connectionData.assessmentName = 'SQUATS';
-    connectionData.authToken ="__AUTH-TOKEN__";
+    connectionData.authToken = '__AUTH-TOKEN__';
 
     return connectionData;
   }

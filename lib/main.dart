@@ -27,14 +27,13 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'XtraVision Demo App',
-      home: Scaffold(
-        appBar: AppBar(
-          title: const Text('XtraVision Demo App'),
-        ),
-        body: const MyHomePage(),
-      )
-    );
+        title: 'XtraVision Demo App',
+        home: Scaffold(
+          appBar: AppBar(
+            title: const Text('XtraVision Demo App'),
+          ),
+          body: const MyHomePage(),
+        ));
   }
 }
 
