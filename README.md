@@ -1,32 +1,24 @@
-## Flutter Demo App for My Package
+## Flutter Demo App for XtraVision Flutter SDK
 This repository contains a demo Flutter app that showcases the functionalities of "xtravision_flutter_sdk", a Flutter library for provide integration with Xtravision SAAS Platform.
 
 ## Getting Started
 To run the demo app, you will need to have 
 - Flutter SDK 
 - VS Code 
-- Android Studio (optional)
+- Android Studio / XCode
 
 Once you have installed the requirements, you can clone this repository and run the following commands:
 
 ```sh
-$ cd flutter-demo
 $ flutter pub get
 $ flutter run
 ```
 This will start the demo app on your device.
 
-Kindly change below code as per your need:
-- Change Camera: front/back in `main.dart`
+Kindly put user specific auth token in below code in `my_assessment_view.dart`. (Get token from your server or put hardcoded for manual testing)
     ```dart
-    // 0 for back camera, and one for front camera
-    MyAssessmentView(camera: cameras[1]);
-    ```
-- Update `assessment name` and `auth-token` in file `my_assessment_view.dart`.
-
-    ```dart
-    connectionData.assessmentName = 'SQUATS';
-    connectionData.authToken ='__AUTH-TOKEN__';
+    connectionData.assessmentName = 'SQUATS'; // assessment name
+    connectionData.authToken ='__AUTH-TOKEN__'; // user specific token
     ```
 
 For detailed information of API, kindly check out API documentation. 
